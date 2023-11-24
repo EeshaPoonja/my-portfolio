@@ -1,0 +1,172 @@
+body{
+
+    color:white;
+    font-family:serif;
+   text-align: center;
+margin:0px;
+  padding:0px;   
+   
+  
+
+}
+img{
+  height: 30%;
+
+ 
+}
+#first{
+    height:80vh;
+    
+}
+li{
+    list-style: none;
+    margin:2px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    
+}
+a:hover{
+    color:blueviolet;
+}
+.container{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-items: start;
+    background-color:purple;
+   padding-top:1%;
+   padding-bottom:1%;
+   margin-top:0%;
+   
+}
+#second>div img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    margin:30px;
+    
+    
+}
+
+#second{
+    color:purple;
+
+   
+
+  
+    margin:100px;
+    text-align: center;
+
+}
+
+#skill{
+    color:purple;
+   
+}
+#gridy{
+    width: 800px;
+      display: grid;
+      grid-template-columns: 1fr ;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      gap:10px;
+      margin:5px;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, red,purple,darkblue);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  
+  
+   
+    
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+  
+  
+    }
+    50% {
+      background-position: 100% 50%;
+  
+  
+    }
+    100% {
+      background-position: 0% 50%;
+    
+  
+    }
+  }
+  
+.name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    
+}
+
+.name:hover{
+    color:blueviolet;
+
+}
+
+
+
+
+  p{
+    text-align: center;
+    font-weight: bold;
+    font-size:large;
+  } 
+ 
+
+footer{
+    text-align: left;
+}
+.gg{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:start;
+    height:15vh;
+    
+}
+.checked {
+  color: orange;
+ }
+.fl{
+  font-weight: bold;
+  color:blueviolet;
+  font-size: large;
+}
+
+#second h2{
+  color:purple;
+}
+#contact .gradient-background{
+  padding-left: 3%;
+  text-align: center;
+  
+}
+.sm{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+.last{
+  display: flex;
+  flex-wrap:wrap;
+  width:100%;
+  justify-content: center;
+ 
+ 
+}
+.a{
+  padding:1%;
+}
+.a:hover{
+  color:blueviolet;
+}
