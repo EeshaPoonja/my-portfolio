@@ -9,7 +9,7 @@ for(i=0;i<items.length;i++){
     for(j=0;j<2;j++){
     diva1[i] = document.createElement("div");
     const node1= document.createElement("img"); 
-    node1.src="./assets/"+items[i].img+".png";  
+    node1.src="./assets1/"+items[i].img+".png";  
     node1.style.height='30vh';
     node1.style.width='20vw';
     diva1[i].appendChild(node1);
