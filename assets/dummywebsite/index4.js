@@ -1,5 +1,4 @@
 log=document.querySelector(".log");
-localStorage.setItem("idu",'');
 log.addEventListener('click',function(){
     user=document.getElementById("user");
 
