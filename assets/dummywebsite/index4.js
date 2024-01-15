@@ -10,7 +10,7 @@ log.addEventListener('click',function(){
         window.location.href = "./index.html";
        
         hh.innerHTML="";
-        localStorage.setItem("idu",'user');
+        
     }
   else{
     localStorage.setItem("idu",'user');
