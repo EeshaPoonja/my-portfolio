@@ -20,7 +20,7 @@ for(i=0;i<n;i++){
     if(x2!=null){
     diva2 = document.createElement("div");
     const node12= document.createElement("img"); 
-    node12.src="./assets/shop/"+x1+".png";  
+    node12.src="./assets/"+x1+".png";  
     node12.style.height='30vh';
     node12.style.width='20vw';
     diva2.appendChild(node12);
