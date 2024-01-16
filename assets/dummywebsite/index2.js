@@ -13,7 +13,7 @@ for(i=0;i<items.length;i++){
     
     diva1[i] = document.createElement("div");
     const node1= document.createElement("img"); 
-    node1.src="./assets/"+items[i].img+".PNG";  
+    node1.src="./assets/shop/"+items[i].img+".png";  
     node1.style.height='30vh';
     node1.style.width='20vw';
     diva1[i].appendChild(node1);
@@ -78,7 +78,7 @@ d.forEach(function(b){b.addEventListener('click',function(){
 
     /*diva2 = document.createElement("div");
     const node12= document.createElement("img"); 
-    node12.src="./assets"+x1+".PNG";  
+    node12.src="./assets/shop/"+x1+".png";  
     node12.style.height='30vh';
     node12.style.width='20vw';
     diva2.appendChild(node12);
