@@ -1,4 +1,8 @@
 
+   var lgt= document.querySelector(".lgo");
+   lgt.addEventListener("click",function(){
+    localStorage.setItem("idu",'user');
+   })
 
 var h=document.querySelector(".dropdown");
 var v=document.querySelectorAll(".dropdowncontent");
@@ -51,10 +55,6 @@ $(document).click(function(){
     console.log(x2)
 
 
-   var lg= document.querySelector(".lgo");
-   lg.addEventListener("click",function(){
-    localStorage.setItem("idu",'user');
-   })
   /* var ser1= document.querySelector("#ser1");
    ser1.addEventListener('click',function(){var an1=prompt('search')});
    var ser= document.querySelector("#ser");
