@@ -53,7 +53,7 @@ $(document).click(function(){
 
    var lg= document.querySelector(".lgo");
    lg.addEventListener("click",function(){
-    localStorage.setItem("idu","");
+    localStorage.setItem("idu",'user');
    })
   /* var ser1= document.querySelector("#ser1");
    ser1.addEventListener('click',function(){var an1=prompt('search')});
