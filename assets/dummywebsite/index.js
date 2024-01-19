@@ -7,7 +7,7 @@
 var h=document.querySelector(".dropdown");
 var v=document.querySelectorAll(".dropdowncontent");
 
-let t=0;
+let tt=0;
 let z=0;
 let s=0;
 
@@ -17,13 +17,13 @@ wel.innerHTML='welcome '+idu;
 
 h.addEventListener('click',function(e){
 console.log(e);
-    if(t==0){
+    if(tt==0){
     for(i=0;i<v.length;i++){
     v[i].classList.add("finalPosition")
    
    
     }
-    t=1;
+    tt=1;
   
    }
     else{
@@ -31,7 +31,7 @@ console.log(e);
         v[i].classList.remove("finalPosition")
        
         }
-        t=0;
+        tt=0;
     }
  
 
@@ -46,7 +46,7 @@ $(document).click(function(){
         v[i].classList.remove("finalPosition")
        
         }
-        t=0;
+        tt=0;
   });
  
   const x1=localStorage.getItem('img'+0);
