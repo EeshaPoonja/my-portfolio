@@ -30,7 +30,14 @@ a{
   
 }
 
-
+.container a:hover{
+  color:white;
+text-shadow: 
+-1px -1px 0 black ,
+ 1px -1px 0 black ,
+-1px  1px 0 black ,
+ 1px  1px 0 black
+}
 h3 a:hover{
 color: purple;
 text-shadow: 
@@ -186,10 +193,30 @@ footer{
 .checked {
 color: orange;
 }
-.myc{
-color:blueviolet;
-
+.checked:hover{
+  color: gold;
 }
+.myc{
+
+color:rgb(20, 20, 142);
+text-shadow: 
+-1px -1px 0 #fff ,
+ 1px -1px 0 #fff ,
+-1px  1px 0 #fff ,
+ 1px  1px 0 gold 
+}
+.myc:hover{
+  color:rgb(44, 44, 180);
+ 
+  text-shadow: 
+  -1px -1px 0 #fff ,
+   1px -1px 0 #fff ,
+  -1px  1px 0 #fff ,
+   1px  1px 0 gold 
+  }
+
+
+
 .fl{
 font-weight: bold;
 color: #e3dede;
@@ -209,6 +236,7 @@ text-shadow:
 -1px  1px 0 #fff ,
  1px  1px 0 #fff 
 }
+
 #contact .gradient-background{
 padding-left: 3%;
 text-align: center;
@@ -314,12 +342,12 @@ footer a,footer .a{
 }
 
 footer a:hover,footer .a:hover{
-  color: #4d0047;
+  color: white;
   text-shadow: 
-  -1px -1px 0 #fff ,
-   1px -1px 0 #fff ,
-  -1px  1px 0 #fff ,
-   1px  1px 0 #fff 
+  -1px -1px 0 #000 ,
+   1px -1px 0 #000 ,
+  -1px  1px 0 #000 ,
+   1px  1px 0 #000 
 }
 #shift{
   display:flex;
@@ -339,4 +367,12 @@ footer a:hover,footer .a:hover{
   background-color: #4d0047;
 
   
+ }
+
+ 
+ .roboto-slab-TT {
+   font-family: "Roboto Slab", serif;
+   font-optical-sizing: auto;
+   font-weight: 300;
+   font-style: normal;
  }
