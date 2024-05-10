@@ -6,7 +6,7 @@ body{
 margin:0px;
 padding:0px;   
  
-
+height:fit-content;
 
 }
 
@@ -83,10 +83,11 @@ text-shadow:
 -1px  1px 0 #fff ,
  1px  1px 0 #fff ;
 
-  margin:100px;
+  margin:20px;
   text-align: center;
-  height:60vh;
-
+  height:fit-content;
+margin-bottom:40px;
+margin-top:40px;
 }
 
 #skill{
@@ -249,6 +250,7 @@ text-align: center;
 display: flex;
 flex-wrap:wrap;
 justify-content: center;
+
 color: #4d0047;
 }
 
