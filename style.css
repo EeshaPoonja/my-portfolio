@@ -1,7 +1,7 @@
 body{
 
   color:white;
-  font-family:serif;
+
  text-align: center;
 margin:0px;
 padding:0px;   
@@ -9,15 +9,12 @@ padding:0px;
 
 
 }
-img{
-height: 30%;
-margin-top:5%;
 
 
-}
 
 #first{
-  height:100vh;
+  height:fit-content;
+  padding-bottom: 120px;
   
 }
 li{
@@ -39,7 +36,7 @@ text-shadow:
  1px  1px 0 black
 }
 h3 a:hover{
-color: purple;
+color: #4d0047;
 text-shadow: 
 -1px -1px 0 #fff ,
  1px -1px 0 #fff ,
@@ -88,6 +85,7 @@ text-shadow:
 
   margin:100px;
   text-align: center;
+  height:60vh;
 
 }
 
@@ -143,7 +141,8 @@ margin:1px;
 
 .name{
 
-
+margin-bottom:5px;
+padding-bottom:5px;
 color: white;
 text-shadow: 
 -1px -1px 0 #000 ,
@@ -179,9 +178,13 @@ footer{
 .gg{
   display:flex;
   flex-wrap:wrap;
-  justify-content:space-around;
+  justify-content:center;
   align-items:start;
+  font-size:2.3vh;
   height:15vh;
+  margin:5px;
+  padding:5px;
+  padding-top:40px;
   color: white;
   text-shadow: 
   -1px -1px 0 #000 ,
@@ -218,7 +221,7 @@ text-shadow:
 
 
 .fl{
-font-weight: bold;
+  font-weight: bold;
 color: #e3dede;
 font-size: large;
 display:flex;
@@ -265,11 +268,10 @@ color:blueviolet;
 }
 
 .noapp{
-display:none;
+display:flex;
 position:absolute;
-background-color: #4d0047;
-justify-content:right;
-
+background-color: purple;
+justify-content:center;
 padding:2%;
 flex-direction: column;
 align-items: right;
@@ -284,9 +286,12 @@ text-shadow:
 
 
 }
+.noapp:hover{
+  background-color:#4d0047;
+}
 h3{
-margin:2px;
 
+  font-size: 3vh;
 }
 
 .paused {
@@ -327,11 +332,7 @@ text-shadow: -1px 1px #000,
 
 
 }}
-.pacifico-regular {
-  font-family: "Pacifico", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
+
 
 
 
@@ -351,7 +352,7 @@ footer a:hover,footer .a:hover{
 }
 #shift{
   display:flex;
-  justify-content: right;
+  justify-content: center;
   flex-wrap: wrap;
   margin:10px;
 
@@ -376,3 +377,21 @@ footer a:hover,footer .a:hover{
    font-weight: 300;
    font-style: normal;
  }
+ .animage{
+  width:150px;
+  height:150px;
+  padding:30px;
+opacity:0.7;
+  display:inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border:1px solid white;
+  margin:20px;
+  
+ }
+ .animage:hover{
+background-color:#8e4488;
+opacity:1;
+ }
+
+
